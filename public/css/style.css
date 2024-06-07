@@ -1,0 +1,72 @@
+/* Loại bỏ nền màu và viền của nút*/
+/* .nav-sidebar .nav-item:last-child button.nav-link {
+    background-color: transparent;
+    border: none;
+} */
+
+/* Loại bỏ các biên dịch chuyển */
+.nav-sidebar .nav-item:last-child button {
+    margin: 0;
+    padding: 0 100px 0 0;
+    border: none;
+    background-color: transparent;
+    color: #c2c7d0;
+    width: 100%;
+} 
+
+.icon_avatar{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid wheat;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr td {
+    padding: 8px; /* Thêm padding cho ô */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+
+th, td {
+    text-align: center;
+}
+
+.title {
+    text-decoration: underline;
+}
+
+.bg-genre-movie {
+    background-color: rgb(138, 236, 202);
+}
+
+.profile-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon_edit_image{
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#avatar-upload-name{
+    background-color:burlywood;
+    color: brown;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.movie_image{
+    width: 60px;
+    object-fit: cover;
+    height: 100px;
+}
